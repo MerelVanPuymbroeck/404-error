@@ -1,0 +1,65 @@
+div {
+  text-align: center;
+}
+
+a, p {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    background-color: rgb( 255, 255, 255 );
+    position: relative;
+    width: 220px;
+    padding: 5px;
+    z-index: 5;
+    font-size: 25px;
+    margin:0 auto;
+    color: #747c99;
+    text-decoration: none;
+    margin-top: -5pt;
+
+}
+
+.achtergrond {
+  background-image: url("achtergrond.png");
+  background-size: cover;
+}
+
+._404 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 100pt;
+  margin-top: 50pt;
+}
+
+._1 {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 50pt;
+  margin-top: -25pt;
+}
+
+._2 {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 60pt;
+  margin-top: -25pt;
+}
+
+.raket {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    width: 250pt;
+    margin-top: -100pt;
+    float: right;
+}
+.raket {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.raket {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
