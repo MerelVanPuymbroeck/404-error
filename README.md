@@ -30,4 +30,4 @@ Making a 404-errorpage with HTML and CSS
 A little animation to get it more atractive!
 And yes I am proud on this style and animation!
 
-
+![](proud.gif)
